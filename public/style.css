@@ -90,6 +90,12 @@ text-align:center;
   align-content: space-between;
 }
 
+.controls:hover {
+  width: 100%;
+  margin: 10px;
+  align-content: space-between;
+}
+
 .controls a {
   color: white;
   text-decoration: none;
@@ -108,7 +114,20 @@ text-align:center;
   color: white;
 }
 
-/*Custom */
+.control:hover {
+  background-color: blue;
+}
+
+
+/*Custom IDs*/
+#header {
+  text-align: center;
+}
+
+#header h1 {
+  margin-bottom: -10px;
+  font-size: 70px;
+}
 
 
 /*etc*/
