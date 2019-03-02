@@ -6,8 +6,11 @@
 *
 *
 *NOTES
+* You're also gonna need to wrap each section in a larger div so that when you click to move to another section, the section content will be centered on the page.
+* Although now that I think about it, I don't know if I'll need that with scrollmagic? will have to test and see hmm....
 * When you install ScrollMagic, do the one that scrolls in several different directions. Also make the three different characters have different color character boxes!
-*Do grey for Venom, black for Magneto, white for Deadpool? 
+* Do grey for Venom, black for Magneto, white for Deadpool? 
+*
 *
 *
 */
