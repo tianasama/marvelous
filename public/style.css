@@ -66,31 +66,17 @@ margin-bottom: 400px;
   color: white;
 }
 
-.title-character{
-width: 200px;
-margin: 10px;
+.character-select {
+  align-content: space-between;
+  margin: 10px;
+  height: 100px;
 }
 
-.title-character img{
-height: 100px;
-}
-
-.title-character:hover {
-cursor: url(hand.cur), pointer;
-text-decoration:none;
-}
-
-.title-caption {
-text-align:center;
+.character-select img {
+  height: 100px;
 }
 
 .controls {
-  width: 100%;
-  margin: 10px;
-  align-content: space-between;
-}
-
-.controls:hover {
   width: 100%;
   margin: 10px;
   align-content: space-between;
@@ -115,7 +101,7 @@ text-align:center;
 }
 
 .control:hover {
-  background-color: blue;
+  background-color: rgba(255, 0, 0, 0.3); /*will actually be blue*/
 }
 
 
