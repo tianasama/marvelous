@@ -46,11 +46,30 @@ text-decoration: none;
 
 
 /*Custom classes*/
+.characters {
+display: flex;
+align-content: space-around;
+}
+
+.title-character{
+width: 200px;
+padding: 10px;
+margin: 10px;
+}
+
 .title-character img{
 height: 100px;
 }
 
-.title-character
+.title-character:hover {
+background-color: red;
+color: white;
+cursor: url(hand.cur), pointer;
+}
+
+.title-character a:hover {
+color:white;
+}
 
 
 /*Custom IDs*/
