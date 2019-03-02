@@ -14,13 +14,12 @@
 
 body {
   font-family: 'VT323', monospace;
-  margin: 400px;
-  margin-top: 200px;
+  margin: 300px;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Press Start 2P', cursive;
-  color: #000000;
+  color: black;
 }
 
 p {
@@ -34,21 +33,22 @@ footer {
 }
 
 a {
-color: red;
-text-decoration: none;
-}
-
-a:hover {
+color: black;
 text-decoration: underline;
 }
 
+a:hover {
+color: black;
+text-decoration: none;
+}
+
 a:visited {
-color: red;
+color: black;
 text-decoration: none;
 }
 
 a:active {
-color: red;
+color: black;
 text-decoration: none;
 }
 
@@ -56,14 +56,11 @@ text-decoration: none;
 
 
 /*Custom classes*/
-.characters {
-display: flex;
-align-content: space-around;
-}
 
 .title-character{
 width: 200px;
-padding: 10px;
+margin: 10px;
+text-align:center;
 }
 
 .title-character img{
@@ -71,16 +68,13 @@ height: 100px;
 }
 
 .title-character:hover {
-background-color: lightgrey;
 cursor: url(hand.cur), pointer;
+text-decoration:none;
 }
 
 
 
 /*Custom IDs*/
-#title p{
-text-align: center;
-}
 
 #headerlogo {
  margin-bottom: 10px;
