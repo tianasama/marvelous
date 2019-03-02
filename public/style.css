@@ -14,7 +14,7 @@
 
 body {
   font-family: 'VT323', monospace;
-  margin: 100px;
+  margin: 400px;
   margin-top: 200px;
   text-align: center;
 }
@@ -40,7 +40,16 @@ text-decoration: none;
 }
 
 a:hover {
-color: blue;
+text-decoration: underline;
+}
+
+a:visited {
+color: red;
+text-decoration: none;
+}
+
+a:active {
+color: red;
 text-decoration: none;
 }
 
@@ -54,7 +63,6 @@ align-content: space-around;
 .title-character{
 width: 200px;
 padding: 10px;
-margin: 10px;
 }
 
 .title-character img{
@@ -62,20 +70,19 @@ height: 100px;
 }
 
 .title-character:hover {
-background-color: red;
-color: white;
+background-color: lightgrey;
 cursor: url(hand.cur), pointer;
 }
 
-.title-character a:hover {
-color:white;
-}
 
 
 /*Custom IDs*/
 #headerlogo {
+ max-
  margin-bottom: 10px;
 }
+
+
 
 /*Glitch CSS*/
 * {
