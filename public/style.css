@@ -1,9 +1,13 @@
-/* QUESTIONS/NOTES FOR OPEN LAB DAY
+/* QUESTIONS
 * 1. Why does my title gif stop moving?
 * 2. Weird centering issues...as usual
 *
 *
 *
+*
+*NOTES
+* When you install ScrollMagic, do the one that scrolls in several different directions. Also make the three different characters have different color character boxes!
+*Do grey for Venom, black for Magneto, white for Deadpool? 
 *
 *
 */
@@ -68,7 +72,6 @@ margin-bottom: 500px;
 
 .character-select {
   margin-left: 100px;
-  margin right: 20
   align-content: space-around;
 }
 
@@ -105,8 +108,9 @@ margin-bottom: 500px;
   background-color: rgba(255, 0, 0, 0.3); /*will actually be blue*/
 }
 
-.section img {
+.section .card-photo {
   height: 200px;
+  margin-left: 40px;
 }
 
 
