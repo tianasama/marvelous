@@ -1,9 +1,22 @@
+/* QUESTIONS FOR OPEN LAB DAY
+* 1. Why does my title gif stop moving?
+*
+*
+*
+*
+*
+*
+*/
+
+
 /* styles */
 /* called by your view template */
 
 body {
   font-family: 'VT323', monospace;
   margin: 100px;
+  margin-top: 200px;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -13,7 +26,6 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-family: 'VT323', monospace;
-  max-width: 600px;
 }
 
 footer {
@@ -21,6 +33,18 @@ footer {
   padding-top: 25px;
   border-top: 1px solid lightgrey;
 }
+
+a {
+color: red;
+text-decoration: none;
+}
+
+a:hover {
+color: blue;
+text-decoration: none;
+}
+
+
 
 
 
