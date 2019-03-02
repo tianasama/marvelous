@@ -1,6 +1,6 @@
 /* QUESTIONS/NOTES FOR OPEN LAB DAY
 * 1. Why does my title gif stop moving?
-*
+* 2. Weird centering issues...as usual
 *
 *
 *
@@ -34,7 +34,7 @@ footer {
 }
 
 section {
-margin-bottom: 400px;
+margin-bottom: 500px;
 }
 
 
@@ -67,6 +67,8 @@ margin-bottom: 400px;
 }
 
 .character-select {
+  margin-left: 100px;
+  margin right: 20
   align-content: space-around;
 }
 
@@ -76,6 +78,7 @@ margin-bottom: 400px;
 
 .controls {
   width: 100%;
+  min-width: 200px; 
   margin: 10px;
   align-content: space-between;
 }
