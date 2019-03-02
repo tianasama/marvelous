@@ -45,10 +45,18 @@ text-decoration: none;
 }
 
 
+/*Custom classes*/
+.title-character img{
+height: 100px;
+}
+
+.title-character
 
 
-
-
+/*Custom IDs*/
+#headerlogo {
+ margin-bottom: 10px;
+}
 
 /*Glitch CSS*/
 * {
