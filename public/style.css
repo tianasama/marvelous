@@ -51,16 +51,6 @@ margin-bottom: 400px;
 }
 
 
-.character-box {
-  background-color:red;
-  height: 400px;
-  width: 100%;
-  min-width: 200px; 
-  padding: 50px;
-  color: mistyrose;
-  overflow: scroll;
-}
-
 .character-box h2 {
   color: white;
   margin-bottom: 10px;
@@ -68,7 +58,7 @@ margin-bottom: 400px;
 
 
 .character-box img {
-  margin: 50px;
+  margin-top: 40px;
 }
 
 .info {
@@ -77,13 +67,11 @@ margin-bottom: 400px;
 }
 
 .character-select {
-  align-content: space-between;
-  margin: 10px;
-  height: 100px;
+  align-content: space-around;
 }
 
 .character-select img {
-  height: 150px;
+  height: 175px;
 }
 
 .controls {
