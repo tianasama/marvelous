@@ -1,4 +1,4 @@
-/* QUESTIONS FOR OPEN LAB DAY
+/* QUESTIONS/NOTES FOR OPEN LAB DAY
 * 1. Why does my title gif stop moving?
 *
 *
@@ -14,12 +14,14 @@
 
 body {
   font-family: 'VT323', monospace;
-  margin: 300px;
+  margin: 200px;
+
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Press Start 2P', cursive;
-  color: black;
+h1, h2 {
+  font-family: 'VT323', monospace;
+  font-style: italic;
+  color: white;
 }
 
 p {
@@ -32,30 +34,37 @@ footer {
   border-top: 1px solid lightgrey;
 }
 
-a {
-color: black;
-text-decoration: none;
+section {
+margin-bottom: 400px;
 }
-
-a:hover {
-color: black;
-text-decoration: underline;
-}
-
-a:visited {
-color: black;
-text-decoration: none;
-}
-
-a:active {
-color: black;
-text-decoration: none;
-}
-
 
 
 
 /*Custom classes*/
+.character-box {
+  background-color:red;
+  height: 400px;
+  width: 100%;
+  min-width: 200px; 
+  padding: 50px;
+  color: mistyrose;
+  overflow: scroll;
+}
+
+.character-box h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.character-box img {
+  margin: 50px;
+}
+
+.info {
+  font-weight: bold;
+  color: white;
+}
 
 .title-character{
 width: 200px;
@@ -75,15 +84,31 @@ text-decoration:none;
 text-align:center;
 }
 
-
-/*Custom IDs*/
-
-#headerlogo {
- margin-bottom: 10px;
+.controls {
+  width: 100%;
+  margin: 10px;
+  align-content: space-between;
 }
 
+.controls a {
+  color: white;
+  text-decoration: none;
+}
 
+.controls a:hover {
+  color: white;
+  text-decoration: none;
+}
 
+.control {
+  padding: 2px;
+  background-color:red;
+  height: 30px;
+  text-align: center;
+  color: white;
+}
+
+/*Custom */
 
 
 /*etc*/
