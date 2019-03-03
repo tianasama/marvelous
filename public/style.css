@@ -40,7 +40,7 @@ footer {
 }
 
 section {
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
 /*scrollmagic*/
@@ -54,15 +54,21 @@ section {
 }
 
 .one {
-background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638653989");
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 .two {
 background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 .three {
 background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 /*Custom classes*/
@@ -71,11 +77,11 @@ background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e1
 .character-box {
   background-color:black;
   opacity: 1;
-  margin-top: 200px;
-  height: 400px;
+  margin-top: 300px;
+  height: 350px;
   width: 100%;
   min-width: 200px; 
-  padding: 50px;
+  padding: 20px;
   color: white;
   overflow: scroll;
 }
