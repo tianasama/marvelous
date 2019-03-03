@@ -20,9 +20,7 @@
 /* called by your view template */
 
 body {
-  background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
   font-family: 'VT323', monospace;
-  margin: 200px;
 }
 
 h1, h2 {
@@ -46,6 +44,11 @@ section {
 }
 
 /*scrollmagic*/
+.panel {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
+}
 
 /*Custom classes*/
 .character-box {

@@ -24,6 +24,7 @@ const listener = app.listen(process.env.PORT, function() {
 
 
 //SCROLLMAGIC
-//init controller
-var controller = new ScrollMagic.Controller();
+
+
+
 
