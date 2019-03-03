@@ -60,9 +60,9 @@ section {
   background-color:black;
   opacity: 1;
   height: 400px;
-  width: 100%;
+  width: 80%;
   min-width: 200px; 
-  padding: 50px;
+  padding: 30px;
   color: white;
   overflow: scroll;
 }
@@ -89,7 +89,7 @@ section {
   opacity: 1;
   margin-top: 20px;
   height: 300px;
-  width: 100%;
+  width: 80%;
   min-width: 200px;
   padding: 40px;
   color: white;
@@ -101,7 +101,7 @@ section {
 }
 
 .character-select {
-  margin-left: 100px;
+  margin-left: 20px;
   align-content: space-around;
 }
 
@@ -110,7 +110,7 @@ section {
 }
 
 .controls {
-  width: 100%;
+  width: 80%;
   margin: 10px;
   align-content: space-between;
 }
