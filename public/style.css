@@ -50,6 +50,7 @@ margin-bottom: 500px;
 /*Custom classes*/
 .character-box {
   background-color:black;
+  opacity: 0.9;
   height: 400px;
   width: 100%;
   min-width: 200px; 
@@ -76,6 +77,7 @@ margin-bottom: 500px;
 
 .comic-box {
   background-color: black;
+  opacity: 0.9;
   margin-top: 20px;
   height: 300px;
   width: 100%;
@@ -118,6 +120,7 @@ margin-bottom: 500px;
 .control {
   padding: 2px;
   background-color:black;
+  opacity: 0.9;
   height: 30px;
   text-align: center;
   color: white;
@@ -145,39 +148,39 @@ margin-bottom: 500px;
 }
 
 #character1 .character-box {
-  background-color: grey;
+  background-color: #222324;
 }
 
 #character1 .comic-box {
-  background-color: grey;
+  background-color: #222324;
 }
 
 #character1 .control {
-  background-color: grey;
+  background-color: #222324;
 }
 
 #character2 .character-box {
-  background-color: purple;
+  background-color: #0A2824;
 }
 
 #character2 .comic-box {
-  background-color: purple;
+  background-color: #0A2824;
 }
 
 #character2 .control {
-  background-color: purple;
+  background-color: #0A2824;
 }
 
 #character3 .character-box {
-  background-color: salmon;
+  background-color: #1B101D;
 }
 
 #character3 .comic-box {
-  background-color: salmon;
+  background-color: #1B101D;
 }
 
 #character3 .control {
-  background-color: salmon;
+  background-color: #1B101D;
 }
 
 
