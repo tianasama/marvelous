@@ -29,7 +29,8 @@
   <!--Body begins-->
   <body>
       <!--Title page-->  
-      <section id="title" class="container panel title">
+    <div class="panel top">
+      <section id="title" class="container">
         <div class="row">
           <div class="col">
             <div class="container character-box">
@@ -47,7 +48,7 @@
                 <a href="#character1">
                   <div class="col-3 character">
                     <div class="container" id="venom-title">
-                      <img src="https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fvenom.gif?1551620300426" alt="Venom">               
+                      <img src="https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fvenom.gif?1551620300426" alt="Venom" onclick="smoothScroll(document.getElementById('#character1'))">               
                     </div>
                   </div>
                 </a>
@@ -89,8 +90,10 @@
 
         </div>
     </section>   
-
+  </div>
+    
       <!--Section 1-->
+    <div class="panel">
       <section id="character1" class="container panel one">
         <div class="row">
           <div class="col">
@@ -168,10 +171,11 @@
             </div>
         </div>
     </section> 
-
+  </div>
 
 
       <!--Section 2-->
+    <div class="panel">
       <section id="character2" class="container panel two">
         <div class="row">
           <div class="col">
@@ -248,9 +252,10 @@
             </div>
         </div>
     </section>     
-
+  </div>
 
       <!--Section 3-->
+    <div class="panel">
       <section id="character3" class="container panel three">
         <div class="row">
           <div class="col">
@@ -326,8 +331,8 @@
               </a>
             </div>
         </div>
-        
-        <footer class="container" id="credit">
+    </section>
+          <footer class="container top" id="credit">
           <div class="row">
             <div class="col-lg-4">
               <strong><a href="#">Back to character select</a></strong><br><br>
@@ -341,7 +346,8 @@
             </div>
           </div>
         </footer> 
-    </section>
+  </div>
+    
     
     <!--Script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
