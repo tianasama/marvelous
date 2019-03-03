@@ -103,7 +103,6 @@ margin-bottom: 500px;
 
 .controls {
   width: 100%;
-  min-width: 200px; 
   margin: 10px;
   align-content: space-between;
 }
@@ -119,6 +118,7 @@ margin-bottom: 500px;
 }
 
 .control {
+  margin-top: 5px;
   padding: 2px;
   background-color:black;
   opacity: 0.9;
@@ -195,6 +195,7 @@ margin-bottom: 500px;
 footer {
   background-color:rgba(0,0,0,0.5);
   color: lightgray;
+  height: 200px;
 }
 
 footer a {
