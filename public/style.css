@@ -72,6 +72,7 @@ margin-bottom: 500px;
 
 .info {
   font-weight: bold;
+  text-decoration: underline;
   color: white;
 }
 
