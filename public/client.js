@@ -3,11 +3,11 @@
 
 console.log('hello world :o');
 
-// Declaring Scrollmagic controller
+// init controller
 var controller = new ScrollMagic.Controller();
 
 //Defining scrollmagic scene
 var scene = new ScrollMagic.Scene({
-  offset: 100, // start scene after scrolling for 100px
-  duration: 400 // pin the element for 400px of scrolling
+  duration: 100, // pin the element for 400px of scrolling
+  offset: 50, // start scene after scrolling for 100px
 })
