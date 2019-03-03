@@ -66,7 +66,7 @@ background-size: 100% 100%;
 }
 
 .three {
-background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fpinky1337.gif?1551638998592");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
@@ -183,39 +183,39 @@ background-size: 100% 100%;
 }
 
 #character1 .character-box {
-  background-color: #222324;
+  background-color: rgba(34, 35, 36, 0.9);
 }
 
 #character1 .comic-box {
-  background-color: #222324;
+  background-color: rgba(34, 35, 36, 0.9);
 }
 
 #character1 .control {
-  background-color: #222324;
+  background-color: rgba(34, 35, 36, 0.9);
 }
 
 #character2 .character-box {
-  background-color: #DD3F45;
+  background-color: rgba(221, 63, 69, 0.9);
 }
 
 #character2 .comic-box {
-  background-color: #DD3F45;
+  background-color: rgba(221, 63, 69, 0.9);
 }
 
 #character2 .control {
-  background-color: #DD3F45;
+  background-color: rgba(221, 63, 69, 0.9);
 }
 
 #character3 .character-box {
-  background-color: #1B101D;
+  background-color: rgba(27, 16, 29, 0.9);
 }
 
 #character3 .comic-box {
-  background-color: #1B101D;
+  background-color: rgba(27, 16, 29, 0.9);
 }
 
 #character3 .control {
-  background-color: #1B101D;
+  background-color: rgba(27, 16, 29, 0.9);
 }
 
 
