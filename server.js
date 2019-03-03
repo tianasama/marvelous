@@ -23,4 +23,7 @@ const listener = app.listen(process.env.PORT, function() {
 
 
 
-//MARVEL API
+//SCROLLMAGIC
+//init controller
+var controller = new ScrollMagic.Controller();
+
