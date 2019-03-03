@@ -67,7 +67,6 @@ margin-bottom: 500px;
 
 
 .character-box img {
-  margin-top: 40px;
   height: 200px;
 }
 
@@ -134,7 +133,8 @@ margin-bottom: 500px;
 .section .card-photo {
   height: 200px;
   margin-left: 80px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 
@@ -147,6 +147,10 @@ margin-bottom: 500px;
 #header h1 {
   margin-bottom: -10px;
   font-size: 70px;
+}
+
+#title .character-box img {
+  margin-top: 60px;
 }
 
 #character1 .character-box {
