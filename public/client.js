@@ -3,4 +3,5 @@
 
 console.log('hello world :o');
 
-// init
+// init scrollmagic controller
+var controller = new ScrollMagic.Controller(); 

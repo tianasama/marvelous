@@ -130,7 +130,7 @@ section {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.section .card-photo {
+.panel .card-photo {
   height: 200px;
   margin-left: 80px;
   margin-top: 25px;
