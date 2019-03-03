@@ -21,7 +21,6 @@
 
 body {
   font-family: 'VT323', monospace;
-  background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
 }
 
 h1, h2 {
@@ -48,21 +47,35 @@ section {
 .panel {
   height: 100%;
   width: 100%;
+}
+
+.title {
   background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
 }
 
-/*Custom classes*/
-.top {
-  margin-top: 200px;
+.one {
+background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
 }
+
+.two {
+background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+}
+
+.three {
+background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638375979");
+}
+
+/*Custom classes*/
+
 
 .character-box {
   background-color:black;
   opacity: 1;
+  margin-top: 200px;
   height: 400px;
-  width: 80%;
+  width: 100%;
   min-width: 200px; 
-  padding: 30px;
+  padding: 50px;
   color: white;
   overflow: scroll;
 }
@@ -89,7 +102,7 @@ section {
   opacity: 1;
   margin-top: 20px;
   height: 300px;
-  width: 80%;
+  width: 100%;
   min-width: 200px;
   padding: 40px;
   color: white;
@@ -101,7 +114,7 @@ section {
 }
 
 .character-select {
-  margin-left: 20px;
+  margin-left: 100px;
   align-content: space-around;
 }
 
@@ -110,7 +123,7 @@ section {
 }
 
 .controls {
-  width: 80%;
+  width: 100%;
   margin: 10px;
   align-content: space-between;
 }
