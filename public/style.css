@@ -22,6 +22,7 @@
 body {
   font-family: 'VT323', monospace;
   margin: 200px;
+  background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
 }
 
 h1, h2 {
@@ -48,12 +49,12 @@ margin-bottom: 500px;
 
 /*Custom classes*/
 .character-box {
-  background-color:red;
+  background-color:black;
   height: 400px;
   width: 100%;
   min-width: 200px; 
   padding: 50px;
-  color: mistyrose;
+  color: white;
   overflow: scroll;
 }
 
@@ -74,7 +75,7 @@ margin-bottom: 500px;
 }
 
 .comic-box {
-  background-color: red;
+  background-color: black;
   margin-top: 20px;
   height: 300px;
   width: 100%;
@@ -116,7 +117,7 @@ margin-bottom: 500px;
 
 .control {
   padding: 2px;
-  background-color:red;
+  background-color:black;
   height: 30px;
   text-align: center;
   color: white;
@@ -141,6 +142,42 @@ margin-bottom: 500px;
 #header h1 {
   margin-bottom: -10px;
   font-size: 70px;
+}
+
+#character1 .character-box {
+  background-color: grey;
+}
+
+#character1 .comic-box {
+  background-color: grey;
+}
+
+#character1 .control {
+  background-color: grey;
+}
+
+#character2 .character-box {
+  background-color: purple;
+}
+
+#character2 .comic-box {
+  background-color: purple;
+}
+
+#character2 .control {
+  background-color: purple;
+}
+
+#character3 .character-box {
+  background-color: salmon;
+}
+
+#character3 .comic-box {
+  background-color: salmon;
+}
+
+#character3 .control {
+  background-color: salmon;
 }
 
 
