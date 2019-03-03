@@ -42,10 +42,7 @@ footer {
 }
 
 section {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  
+  margin-bottom: 500px;
 }
 
 
@@ -142,12 +139,6 @@ section {
 
 
 /*Custom IDs*/
-#pinContainer {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
 #header {
   text-align: center;
   margin-bottom: -50px;
