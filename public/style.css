@@ -73,6 +73,21 @@ margin-bottom: 500px;
   color: white;
 }
 
+.comic-box {
+  background-color: red;
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  min-width: 200px;
+  padding: 40px;
+  color: white;
+}
+
+.comic-box h4 {
+  color: white;
+  font-style: italic;
+}
+
 .character-select {
   margin-left: 100px;
   align-content: space-around;
