@@ -1,29 +1,39 @@
 // client-side js
 // run by the browser each time your view template is loaded
 
-/* global ScrollMagic */
+/* global ScrollMagic, Linear */
 document.addEventListener("DOMContentLoaded", ()=>  {
   
   console.log("Scrollmagic works!", ScrollMagic);
   
   //init scrollmagic
-  var controller = new ScrollMagic.Controller({
-		globalSceneOptions: {
-		triggerHook: 'onLeave'
-					}
-				});
-
-	// get all slides
-	var slides = document.querySelectorAll("section.panel");
-
-	// create scene for every slide
-	for (var i=0; i<slides.length; i++) {
-			new ScrollMagic.Scene({
-					triggerElement: slides[i]
-						})
-					.setPin(slides[i])
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
-							}  
+  var controller = new ScrollMagic.Controller();
   
+  //Parallax effect - Title
+  new ScrollMagic.Scene({
+          triggerElement: "#title",
+          triggerHook: "onEnter",
+      })
+      .duration('200%')
+      .setTween("#title", {
+          backgroundPosition: "50% 100%",
+          ease: Linear.easeNone
+      })
+
+      //.addIndicators() // for debugging purposes
+      .addTo(controller);
+  
+  new ScrollMagic.Scene({
+          triggerElement: "#one",
+          triggerHook: "onEnter",
+      })
+      .duration('200%')
+      .setTween("#one", {
+          backgroundPosition: "50% 100%",
+          ease: Linear.easeNone
+      })
+
+      //.addIndicators() // for debugging purposes
+      .addTo(controller);
+    
 });
