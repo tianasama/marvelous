@@ -7,31 +7,23 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   console.log("Scrollmagic works!", ScrollMagic);
   
   //init scrollmagic
-  var controller = new ScrollMagic.Controller();
-  
-  //scenes
-  new ScrollMagic.Scene({
-        triggerElement: "#one",
-        triggerHook: "onLeave",
-    })
-    .setPin("#one")
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
- 
-  new ScrollMagic.Scene({
-          triggerElement: "#two",
-          triggerHook: "onLeave",
-      })
-      .setPin("#two")
-      //.addIndicators() // add indicators (requires plugin)
-      .addTo(controller);
-  
-  new ScrollMagic.Scene({
-          triggerElement: "#three",
-          triggerHook: "onLeave",
-      })
-      .setPin("#three")
-      //.addIndicators() // add indicators (requires plugin)
-      .addTo(controller);  
+  var controller = new ScrollMagic.Controller({
+		globalSceneOptions: {
+		triggerHook: 'onLeave'
+					}
+				});
+
+	// get all slides
+	var slides = document.querySelectorAll("section.panel");
+
+	// create scene for every slide
+	for (var i=0; i<slides.length; i++) {
+			new ScrollMagic.Scene({
+					triggerElement: slides[i]
+						})
+					.setPin(slides[i])
+					.addIndicators() // add indicators (requires plugin)
+					.addTo(controller);
+							}  
   
 });
