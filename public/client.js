@@ -2,23 +2,32 @@
 // run by the browser each time your view template is loaded
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  // init
-			var controller = new ScrollMagic.Controller({
-					globalSceneOptions: {
-					triggerHook: 'onLeave'
-						}
-					});
-
-	// get all slides
-				var slides = document.querySelectorAll("section.panel");
-
-	// create scene for every slide
-					for (var i=0; i<slides.length; i++) {
-					new ScrollMagic.Scene({
-								triggerElement: slides[i]
-									})
-									.setPin(slides[i])
-									.addIndicators() // add indicators (requires plugin)
-									.addTo(controller);
-							}
+  //init scrollmagic
+  var controller = new ScrollMagic.Controller();
+  
+  //scenes
+  new ScrollMagic.Scene({
+        triggerElement: "#one",
+        triggerHook: "onLeave",
+    })
+    .setPin("#one")
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+ 
+  new ScrollMagic.Scene({
+          triggerElement: "#two",
+          triggerHook: "onLeave",
+      })
+      .setPin("#two")
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+  
+  new ScrollMagic.Scene({
+          triggerElement: "#three",
+          triggerHook: "onLeave",
+      })
+      .setPin("#three")
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);  
+  
 });

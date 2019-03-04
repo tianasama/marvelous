@@ -48,6 +48,9 @@ section {
   height: 100%;
   width: 100%;
   margin-bottom: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .panel.three {
