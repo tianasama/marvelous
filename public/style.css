@@ -43,14 +43,11 @@ section {
   margin-bottom: 300px;
 }
 
-/*scrollmagic*/
+
+/*Custom classes*/
 .panel {
   height: 100%;
   width: 100%;
-  margin-bottom: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .panel.three {
@@ -78,8 +75,6 @@ background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e1
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
-
-/*Custom classes*/
 
 
 .character-box {
