@@ -50,6 +50,10 @@ section {
   margin-bottom: 400px;
 }
 
+.panel.three {
+  margin-bottom: 0px;
+}
+
 .title {
   background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fcity.gif?1551619069181");
 }

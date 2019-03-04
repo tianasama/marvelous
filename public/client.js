@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				var slides = document.querySelectorAll("section.panel");
 
 	// create scene for every slide
-							for (var i=0; i<slides.length; i++) {
+					for (var i=0; i<slides.length; i++) {
 					new ScrollMagic.Scene({
-										triggerElement: slides[i]
+								triggerElement: slides[i]
 									})
 									.setPin(slides[i])
 									.addIndicators() // add indicators (requires plugin)
