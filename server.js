@@ -21,9 +21,17 @@ const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
 });
 
-//init api client
+//ASK IF YOU NEED TO AUTHORIZE APP like in spotify api
+
+//-------------------------------------------------------------//
+//------------------------- MARVEL API ------------------------//
+//-------------------------------------------------------------//
+
+//Initialize Marvel API Wrapper
 var api = require('marvel-api');
- 
+
+
+// The object we'll use to interact with the API
 var marvel = api.createClient({
   publicKey: process.env.PUBLIC_KEY
 , privateKey: process.env.PRIVATE_KEY
@@ -32,7 +40,15 @@ var marvel = api.createClient({
 
 
 
+//-------------------------------------------------------------//
+//------------------------- API CALLS -------------------------//
+//-------------------------------------------------------------//
+
+//Find comics filtered by Venom (Eddie Brock) character ID - 1010787
+
+
+//Find comics filtered by Deadpool character ID - 1009268
 
 
 
-
+//Find comics filtered by Magneto character ID - 1009417
