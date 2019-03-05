@@ -21,6 +21,14 @@ const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
 });
 
+//init api client
+var api = require('marvel-api');
+ 
+var marvel = api.createClient({
+  publicKey: process.env.PUBLIC_KEY
+, privateKey: process.env.PRIVATE_KEY
+});
+
 
 
 
