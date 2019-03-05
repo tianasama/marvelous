@@ -11,8 +11,9 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
   //init scrollmagic
   var controller = new ScrollMagic.Controller({
-    globalSceneOptionis: {
-        triggerhook: 'OnLeave'
+    globalSceneOptions: {
+        triggerhook: 'onEnter',
+        duration: '200%'
     }
   });
   
@@ -31,34 +32,11 @@ document.addEventListener("DOMContentLoaded", ()=>  {
       .addTo(controller);
   
   
-    //Parallax effect - Title
-  new ScrollMagic.Scene({
-        triggerElement: "#two",
-        triggerHook: "onEnter",
-      })
-      .duration('200%')
-      .setTween("#two", {
-          backgroundPosition: "50% 100%",
-          ease: Linear.easeNone
-      })
-
-      //.addIndicators() // for debugging purposes
+  //Parallax effect - One
+  new ScrollMagic.Scene ({triggerElement: "#two"})
+      .setTween ("#two > div, {y: 80%, ease: Linear.easeNone}")
+      .addIndicators()
       .addTo(controller);
-  
-
-  //get main slides
-//   var slides = document.querySelectorAll("section.main");
-    
-//  //create scene for every main slide
-//   for (let i=0; i <slides.length; i++) {
-//    new ScrollMagic.Scene ({
-//      triggerElement: slides [i]
-//    })
-//     .setPin (slides[i])
-//     .addIndicators()
-//     .addTo(controller);
-//   } 
-  
   
 //MARVEL API SCRIPT
   fetch('search-comic').then(resp => resp.json()).then((data) => {
