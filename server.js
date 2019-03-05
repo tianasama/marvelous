@@ -37,6 +37,13 @@ var marvel = api.createClient({
 , privateKey: process.env.PRIVATE_KEY
 });
 
+// Using the Client Credentials auth flow, authenticate our app
+marvel.clientCredentialsGrant()
+  .then(function(data){
+  
+  //save access token for later
+  marvel.setAccessToken(data.body['access_token']);
+});
 
 
 
@@ -48,7 +55,7 @@ var marvel = api.createClient({
 app.get('/search-comic', function (request, response) {
   
   //Search for comics with a certain character!
- marvel.characters.findByName('spider-man')
+ marvel.characters.comics('1010787', {limit: 5})
   .then(function(res) {
     console.log('Found character ID', res.data[0].id);
     return marvel.characters.comics(res.data[0].id);

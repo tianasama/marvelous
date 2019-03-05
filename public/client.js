@@ -61,5 +61,8 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
   
 //MARVEL API SCRIPT
-  
+  fetch('search-comic').then(resp => resp.json()).then((data) => {
+    console.log(data);
+    
+  });
 });
