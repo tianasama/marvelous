@@ -33,10 +33,21 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
   
   //Parallax effect - One
-  new ScrollMagic.Scene ({triggerElement: "#two"})
-      .setTween ("#two > div, {y: 80%, ease: Linear.easeNone}")
-      .addIndicators()
+  new ScrollMagic.Scene({
+        triggerElement: "#one",
+        triggerHook: "onEnter",
+      })
+      .duration('200%')
+      .setTween("#one", {
+          backgroundPosition: "50% 100%",
+          ease: Linear.easeNone
+      })
+
+      //.addIndicators() // for debugging purposes
       .addTo(controller);
+  
+  
+  
   
 //MARVEL API SCRIPT
   fetch('search-comic').then(resp => resp.json()).then((data) => {

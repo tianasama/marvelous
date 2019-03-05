@@ -1,7 +1,7 @@
 /* QUESTIONS
-* 1. Why does my title gif stop moving?
-* 2. Weird centering issues...as usual
-*
+* 1. Can't figure out how to get parallax to work one sections one, two and three?
+* 2. Lol I just need help setting up Marvel API kms
+* 
 *
 *
 *
@@ -40,6 +40,7 @@ footer {
 }
 
 section {
+  margin-top: 100px;
   margin-bottom: 300px;
 }
 
@@ -48,8 +49,6 @@ section {
   height: 100%;
   width: 100%;
   display: flex;
-  overflow: hidden;
-  position: relative;
   
 }
 
