@@ -3,7 +3,10 @@
 
 /* global ScrollMagic, Linear */
 document.addEventListener("DOMContentLoaded", ()=>  {
+ 
   
+  
+//SCROLLMAGIC SCRIPT  
   console.log("Scrollmagic works!", ScrollMagic);
   
   //init scrollmagic
@@ -55,4 +58,8 @@ document.addEventListener("DOMContentLoaded", ()=>  {
 //     .addIndicators()
 //     .addTo(controller);
 //   } 
+  
+  
+//MARVEL API SCRIPT
+  
 });
