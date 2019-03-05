@@ -39,12 +39,16 @@ footer {
   border-top: 1px solid lightgrey;
 }
 
+section {
+  margin-bottom: 300px;
+}
+
 /*Custom classes*/
 .panel {
   height: 100%;
   width: 100%;
   display: flex;
-  margin-bottom: 300px;
+  
 }
 
 .panel.three {
@@ -76,13 +80,12 @@ footer {
 
 .character-box {
   background-color:black;
-  opacity: 1;
+  margin-top: 100px;
   height: 350px;
   width: 100%;
   min-width: 200px; 
   padding: 20px;
   color: white;
-  margin-top: 200px;
   overflow: scroll;
 }
 
