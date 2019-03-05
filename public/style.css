@@ -60,19 +60,19 @@ section {
 }
 
 .one {
-  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638653989");
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638653989") 50% 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .two {
-  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fwaneella.gif?1551639051814");
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fwaneella.gif?1551639051814") 50% 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .three {
-  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fpinky1337.gif?1551638998592");
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fpinky1337.gif?1551638998592") 50% 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -185,39 +185,39 @@ section {
   margin-top: 60px;
 }
 
-#character1 .character-box {
+#one .character-box {
   background-color: rgba(34, 35, 36, 0.9);
 }
 
-#character1 .comic-box {
+#one .comic-box {
   background-color: rgba(34, 35, 36, 0.9);
 }
 
-#character1 .control {
+#one .control {
   background-color: rgba(34, 35, 36, 0.9);
 }
 
-#character2 .character-box {
+#two .character-box {
   background-color: rgba(221, 63, 69, 0.9);
 }
 
-#character2 .comic-box {
+#two .comic-box {
   background-color: rgba(221, 63, 69, 0.9);
 }
 
-#character2 .control {
+#two .control {
   background-color: rgba(221, 63, 69, 0.9);
 }
 
-#character3 .character-box {
+#three .character-box {
   background-color: rgba(27, 16, 29, 0.9);
 }
 
-#character3 .comic-box {
+#three .comic-box {
   background-color: rgba(27, 16, 29, 0.9);
 }
 
-#character3 .control {
+#three .control {
   background-color: rgba(27, 16, 29, 0.9);
 }
 

@@ -33,11 +33,11 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
     //Parallax effect - Title
   new ScrollMagic.Scene({
-        triggerElement: "#one",
+        triggerElement: "#two",
         triggerHook: "onEnter",
       })
       .duration('200%')
-      .setTween("#one", {
+      .setTween("#two", {
           backgroundPosition: "50% 100%",
           ease: Linear.easeNone
       })
