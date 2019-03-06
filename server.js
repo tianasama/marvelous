@@ -47,7 +47,7 @@ app.get('/marvel', function (request, response) {
   
  marvel.characters.comics('1009268')
   .then((data) => {
-   let trimmed = data.data.wslice(0, 5);
+   let trimmed = data.data.slice(0, 5);
    response.send(trimmed)
 
  })
