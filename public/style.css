@@ -180,6 +180,17 @@ section {
 }
 
 
+.chart-box {
+  background-color:black;
+  margin-top: 100px;
+  height: 550px;
+  width: 100%;
+  min-width: 300px; 
+  padding: 20px;
+  color: white;
+  overflow: scroll;
+}
+
 /*Custom IDs*/
 #header {
   text-align: center;
