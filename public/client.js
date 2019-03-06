@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", ()=>  {
         triggerElement: "#title",
         triggerHook: "onEnter",
       })
-      .duration('200%')
+      .duration(200)
       .setTween("#title", {
           backgroundPosition: "50% 100%",
           ease: Linear.easeNone
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", ()=>  {
         triggerElement: "#one",
         triggerHook: "onEnter",
       })
-      .duration('200%')
+      .duration(200)
       .setTween("#one", {
           backgroundPosition: "50% 100%",
           ease: Linear.easeNone
@@ -50,7 +50,9 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
   
 //MARVEL API SCRIPT
-  fetch('/marvel').then(resp => resp.json()).then((data) => {
+  fetch('/deadpool').then(resp => resp.json()).then((data) => {
+    
+    console.log('Deadpool is here!');
     
     var comic = [];
     
@@ -58,7 +60,7 @@ document.addEventListener("DOMContentLoaded", ()=>  {
       var img = document.createElement('img');
       img.className = 'comicPanel';
       img.setAttribute('src', data.images.path);
-      document.getElementById('').appendChild(img);
+      document.getElementById('deadpoolresults').appendChild(img);
     } 
     
     console.log(data);

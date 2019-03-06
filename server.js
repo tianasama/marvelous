@@ -43,7 +43,7 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 
 //Find comics filtered by Venom (Eddie Brock) character ID - 1010787
-app.get('/marvel', function (request, response) {
+app.get('/deadpool', function (request, response) {
   
  marvel.characters.comics('1009268')
   .then((data) => {
