@@ -85,17 +85,21 @@ document.addEventListener("DOMContentLoaded", ()=>  {
   
   
 //MARVEL API SCRIPT
-  fetch('/deadpool').then(resp => resp.json()).then((data) => {
+  fetch('/venom').then(resp => resp.json()).then((data) => {
     
-    console.log('Deadpool is here!');
+    console.log('Venom is here!');
     
     var comic = [];
+    for (var i=0; i<5; i++){
+      comic.push(data[i]);
+    }
+    console.log(comic);
     
-    for (var i=0; i < 5; i++) {
+    for (var i=0; i < comic.length; i++) {
       var img = document.createElement('img');
       img.className = 'comicPanel';
-      img.setAttribute('src', data.images.path);
-      document.getElementById('deadpoolresults').appendChild(img);
+      img.setAttribute('src', comic[i].thumbnail.path + ".jpg");
+      document.getElementById('venomresults').appendChild(img);
     } 
     
     console.log(data);

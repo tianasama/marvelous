@@ -43,9 +43,9 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 
 //Find comics filtered by Venom (Eddie Brock) character ID - 1010787
-app.get('/deadpool', function (request, response) {
+app.get('/venom', function (request, response) {
   
- marvel.characters.comics('1009268')
+ marvel.characters.comics('1010787')
   .then((data) => {
    let trimmed = data.data.slice(0, 5);
    response.send(trimmed)
@@ -74,8 +74,21 @@ app.get('/deadpool', function (request, response) {
 
 
 
-
-//https://codepen.io/Boo-urns/pen/IdCKr
-
-
 //Find comics filtered by Magneto character ID - 1009417
+app.get('/deadpool', function (request, response) {
+  
+ marvel.characters.comics('1009417')
+  .then((data) => {
+   let trimmed = data.data.slice(0, 5);
+   response.send(trimmed)
+
+ })
+  .fail(console.error)
+  .done();
+  
+  
+})
+
+
+//Example code
+//https://codepen.io/Boo-urns/pen/IdCKr
