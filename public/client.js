@@ -5,8 +5,9 @@
 document.addEventListener("DOMContentLoaded", ()=>  {
  
   
-  
-//SCROLLMAGIC SCRIPT  
+//-------------------------------------------------------------//
+//------------------------- SCROLLMAGIC -----------------------//
+//-------------------------------------------------------------//
   console.log("Scrollmagic works!", ScrollMagic);
   
   //init scrollmagic
@@ -62,7 +63,7 @@ document.addEventListener("DOMContentLoaded", ()=>  {
       .addTo(controller);  
 
   
-  //Parallax effect - One
+  //Parallax effect - Three
   new ScrollMagic.Scene({
         triggerElement: "#three",
         triggerHook: "onEnter",
@@ -75,6 +76,12 @@ document.addEventListener("DOMContentLoaded", ()=>  {
 
       //.addIndicators() // for debugging purposes
       .addTo(controller);  
+  
+
+//-------------------------------------------------------------//
+//------------------------- MARVEL API ------------------------//
+//-------------------------------------------------------------//  
+
   
   
 //MARVEL API SCRIPT
