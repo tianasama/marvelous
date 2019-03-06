@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", ()=>  {
       })
       .duration(200)
       .setTween("#one", {
-          backgroundPosition: "50% 100%",
+          backgroundPosition: "100% 100%",
           ease: Linear.easeNone
       })
 
