@@ -43,20 +43,30 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 
 //Find comics filtered by Venom (Eddie Brock) character ID - 1010787
-app.get('/search-comic', function (request, response) {
+app.get('/marvel', function (request, response) {
   
-  //Search for comics with a certain character!
  marvel.characters.comics('1009268')
-  .then(function(res) {
-    console.log('Found character ID', res.data[0].id);
-    return marvel.characters.comics(res.data[0].id);
-  })
-  .then(function(res) {
-    console.log('found %s comics of %s total', res.meta.count, res.meta.total);
-    console.log(res.data);
-  })
+  .then((data) => {
+   let trimmed = data.data.wslice(0, 5);
+   response.send(trimmed)
+
+ })
   .fail(console.error)
   .done();
+  
+  
+  //Search for comics with a certain character!
+//  marvel.characters.comics('1009268')
+//   .then(function(res) {
+//     console.log('Found character ID', res.data[0].id);
+//     return marvel.characters.comics(res.data[0].id);
+//   })
+//   .then(function(res) {
+//     console.log('found %s comics of %s total', res.meta.count, res.meta.total);
+//     console.log(res.data);
+//   })
+//   .fail(console.error)
+//   .done();
   
 })
 
