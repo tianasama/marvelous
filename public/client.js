@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", ()=>  {
     for (var i=0; i < 5; i++) {
       var img = document.createElement('img');
       img.className = 'comicPanel';
-      img.setAttribute('src', )
-    
+      img.setAttribute('src', data.images.path);
+      document.getElementById('').appendChild(img);
     } 
     
     console.log(data);
