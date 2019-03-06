@@ -1,7 +1,7 @@
 // client-side js
 // run by the browser each time your view template is loaded
 
-/* global ScrollMagic, Linear */
+/* global ScrollMagic, Chart, Linear */
 document.addEventListener("DOMContentLoaded", ()=>  {
  
   
@@ -81,8 +81,6 @@ document.addEventListener("DOMContentLoaded", ()=>  {
 //-------------------------------------------------------------//
 //------------------------- MARVEL API ------------------------//
 //-------------------------------------------------------------//  
-
-  
   
 //VENOM
   fetch('/venom').then(resp => resp.json()).then((data) => {
