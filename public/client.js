@@ -84,13 +84,13 @@ document.addEventListener("DOMContentLoaded", ()=>  {
 
   
   
-//MARVEL API SCRIPT
+//VENOM
   fetch('/venom').then(resp => resp.json()).then((data) => {
     
     console.log('Venom is here!');
     
     var comic = [];
-    for (var i=0; i<5; i++){
+    for (var i=0; i<12; i++){
       comic.push(data[i]);
     }
     console.log(comic);
@@ -105,6 +105,50 @@ document.addEventListener("DOMContentLoaded", ()=>  {
     console.log(data);
     
   });
+  
+//DEADPOOL
+  fetch('/deadpool').then(resp => resp.json()).then((data) => {
+    
+    console.log('Deadpool is here!');
+    
+    var comic = [];
+    for (var i=0; i<12; i++){
+      comic.push(data[i]);
+    }
+    console.log(comic);
+    
+    for (var i=0; i < comic.length; i++) {
+      var img = document.createElement('img');
+      img.className = 'comicPanel';
+      img.setAttribute('src', comic[i].thumbnail.path + ".jpg");
+      document.getElementById('deadpoolresults').appendChild(img);
+    } 
+    
+    console.log(data);
+    
+  });
+  
+//MAGNETO
+  fetch('/magneto').then(resp => resp.json()).then((data) => {
+    
+    console.log('Magneto is here!');
+    
+    var comic = [];
+    for (var i=0; i<12; i++){
+      comic.push(data[i]);
+    }
+    console.log(comic);
+    
+    for (var i=0; i < comic.length; i++) {
+      var img = document.createElement('img');
+      img.className = 'comicPanel';
+      img.setAttribute('src', comic[i].thumbnail.path + ".jpg");
+      document.getElementById('magnetoresults').appendChild(img);
+    } 
+    
+    console.log(data);
+    
+  });  
 });
   
   

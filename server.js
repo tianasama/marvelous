@@ -47,7 +47,7 @@ app.get('/venom', function (request, response) {
   
  marvel.characters.comics('1010787')
   .then((data) => {
-   let trimmed = data.data.slice(0, 5);
+   let trimmed = data.data.slice(0, 12);
    response.send(trimmed)
 
  })
@@ -62,7 +62,7 @@ app.get('/deadpool', function (request, response) {
   
  marvel.characters.comics('1009268')
   .then((data) => {
-   let trimmed = data.data.slice(0, 5);
+   let trimmed = data.data.slice(0, 12);
    response.send(trimmed)
 
  })
@@ -75,11 +75,11 @@ app.get('/deadpool', function (request, response) {
 
 
 //Find comics filtered by Magneto character ID - 1009417
-app.get('/deadpool', function (request, response) {
+app.get('/magneto', function (request, response) {
   
  marvel.characters.comics('1009417')
   .then((data) => {
-   let trimmed = data.data.slice(0, 5);
+   let trimmed = data.data.slice(0, 12);
    response.send(trimmed)
 
  })
