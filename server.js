@@ -55,24 +55,26 @@ app.get('/deadpool', function (request, response) {
   .done();
   
   
-  //Search for comics with a certain character!
-//  marvel.characters.comics('1009268')
-//   .then(function(res) {
-//     console.log('Found character ID', res.data[0].id);
-//     return marvel.characters.comics(res.data[0].id);
-//   })
-//   .then(function(res) {
-//     console.log('found %s comics of %s total', res.meta.count, res.meta.total);
-//     console.log(res.data);
-//   })
-//   .fail(console.error)
-//   .done();
+})
+
+//Find comics filtered by Deadpool character ID - 1009268
+app.get('/deadpool', function (request, response) {
+  
+ marvel.characters.comics('1009268')
+  .then((data) => {
+   let trimmed = data.data.slice(0, 5);
+   response.send(trimmed)
+
+ })
+  .fail(console.error)
+  .done();
+  
   
 })
 
 
 
-//Find comics filtered by Deadpool character ID - 1009268
+
 //https://codepen.io/Boo-urns/pen/IdCKr
 
 
