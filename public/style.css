@@ -62,20 +62,20 @@ section {
 
 .one {
   background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638653989");
-/*   background-repeat: no-repeat; */
+  background-size: 100%;
   background-position: 100% 0%;
 }
 
 .two {
-  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fwaneella.gif?1551639051814") 50% 0;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fwaneella.gif?1551639051814");
+  background-size: 100%;
+  background-position: 100% 0%;
 }
 
 .three {
-  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fpinky1337.gif?1551638998592") 50% 0;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Fpinky1337.gif?1551638998592");
+  background-size: 100%;
+  background-position: 100% 0%;
 }
 
 
@@ -228,6 +228,7 @@ footer {
   background-color:rgba(0,0,0,0.5);
   color: lightgray;
   height: 200px;
+  margin-top: 100px;
 }
 
 footer a {

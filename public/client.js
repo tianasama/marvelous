@@ -45,8 +45,36 @@ document.addEventListener("DOMContentLoaded", ()=>  {
 
       //.addIndicators() // for debugging purposes
       .addTo(controller);
+
   
+  //Parallax effect - Two
+  new ScrollMagic.Scene({
+        triggerElement: "#two",
+        triggerHook: "onEnter",
+      })
+      .duration(200)
+      .setTween("#two", {
+          backgroundPosition: "100% 100%",
+          ease: Linear.easeNone
+      })
+
+      //.addIndicators() // for debugging purposes
+      .addTo(controller);  
+
   
+  //Parallax effect - One
+  new ScrollMagic.Scene({
+        triggerElement: "#three",
+        triggerHook: "onEnter",
+      })
+      .duration(200)
+      .setTween("#three", {
+          backgroundPosition: "100% 100%",
+          ease: Linear.easeNone
+      })
+
+      //.addIndicators() // for debugging purposes
+      .addTo(controller);  
   
   
 //MARVEL API SCRIPT
