@@ -37,15 +37,6 @@ var marvel = api.createClient({
 , privateKey: process.env.PRIVATE_KEY
 });
 
-// Using the Client Credentials auth flow, authenticate our app
-// marvel.clientCredentialsGrant()
-//   .then(function(data){
-  
-//   //save access token for later
-//   marvel.setAccessToken(data.body['access_token']);
-// });
-
-
 
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
