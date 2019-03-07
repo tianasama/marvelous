@@ -52,7 +52,7 @@ section {
   
 }
 
-.panel.three {
+.panel.four {
   margin-bottom: 0px;
 }
 
@@ -78,6 +78,11 @@ section {
   background-position: 100% 0%;
 }
 
+.four {
+  background: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Ffinal.gif?1551917316205");
+  background-size: 100%;
+  background-position: 100% 0%;
+}
 
 .character-box {
   background-color:black;
@@ -190,6 +195,8 @@ section {
   color: white;
   overflow: scroll;
 }
+
+
 
 /*Custom IDs*/
 #header {
