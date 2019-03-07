@@ -250,7 +250,8 @@ section {
 }
 
 #four .chart-box {
-  background-color: (0,0,0,
+  background-color: rgba(0,0,0,0.8);
+  font-size: 12px;
 }
 
 

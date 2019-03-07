@@ -173,8 +173,8 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["Venom", "Deadpool", "Magneto"],
         datasets: [{
-            label: 'How many movies have you appeared in?',
-            data: [3, 3, 5],
+            label: 'How many movies have you appeared in (as of 2019)?',
+            data: [2, 3, 7],
             backgroundColor: [
                 'rgba(105, 130, 72, 0.5)',
                 'rgba(221, 63, 69, 0.5)',
@@ -199,6 +199,7 @@ var myChart = new Chart(ctx, {
         legend: {
             labels: {
                 fontFamily: 'VT323',
+                fontColor:'white',
             }
         }
     }
