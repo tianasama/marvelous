@@ -174,7 +174,7 @@ var myChart = new Chart(ctx, {
         labels: ["Venom", "Deadpool", "Magneto"],
         datasets: [{
             label: 'How many movies have you appeared in?',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [3, 3, 5],
             backgroundColor: [
                 'rgba(105, 130, 72, 0.5)',
                 'rgba(221, 63, 69, 0.5)',
@@ -195,6 +195,11 @@ var myChart = new Chart(ctx, {
                     beginAtZero:true
                 }
             }]
+        },
+        legend: {
+            labels: {
+                fontFamily: 'VT323',
+            }
         }
     }
 });

@@ -191,7 +191,7 @@ section {
   height: 550px;
   width: 100%;
   min-width: 300px; 
-  padding: 20px;
+  padding: 40px;
   color: white;
   overflow: scroll;
 }
@@ -247,6 +247,10 @@ section {
 
 #three .control {
   background-color: rgba(27, 16, 29, 0.9);
+}
+
+#four .chart-box {
+  background-color: (0,0,0,
 }
 
 
