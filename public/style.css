@@ -62,7 +62,7 @@ section {
 
 .one {
   background-image: url("https://cdn.glitch.com/6b596ae5-d16e-4ffa-b78a-2d3e6081e16e%2Foriginal.gif?1551638653989");
-  background-size: 100%;
+  background-size: cover;
   background-position: 100% 0%;
 }
 
